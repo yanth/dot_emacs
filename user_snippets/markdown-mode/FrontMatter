@@ -1,0 +1,11 @@
+# key: ---
+# name: FrontMatter
+# --
+---
+layout: post
+title: 日記
+date: `(my-insert-date)`
+category: ${1:dialy}
+${2:tags: [$3]}
+---
+$0
