@@ -14,7 +14,7 @@
 (depends-on "yasnippet")
 (depends-on "color-moccur")
 (depends-on "auto-complete")
-(depends-on "auto-highlight-symbol")
+(depends-on "highlight-symbol")
 ; helm
 (depends-on "helm")
 (depends-on "helm-descbinds")
