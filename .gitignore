@@ -1,7 +1,7 @@
-/recentf
-/eshell/*
-/inits/*.elc
 /.cask/*
-/auto-save-list/*
 /ac-comphist.dat
 /async-bytecomp.log
+/auto-save-list/*
+/eshell/*
+/inits/*.elc
+/recentf
