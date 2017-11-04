@@ -1,0 +1,7 @@
+(require 'anything-config)
+(setq anything-enable-shortcuts 'prefix)
+(define-key anything-map (kbd "@") 'anything-select-with-prefix-shortcut)
+(global-set-key (kbd "C-x b") 'anything-mini)
+(global-set-key (kbd "M-x") 'anything-M-x)
+(global-set-key (kbd "C-x C-f") 'anything-find-files)
+(global-set-key (kbd "M-y") 'anythigng-kill-ring)
