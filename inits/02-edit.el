@@ -5,6 +5,9 @@
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
 (setq ac-delay 0.1)
 (setq ac-auto-show-menu 0.5)
+(set-face-foreground 'popup-summary-face "black")
+(set-face-background 'ac-selection-face "blue")
+(set-face-background 'ac-completion-face "white")
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/dict")
 
 ;; yasnippet
@@ -15,6 +18,7 @@
 	;; "~/.emacs.d/yasnippet/extras/imported"
 	))
 (yas-global-mode 1)
+(add-to-list 'warning-suppress-types '(yasnippet backquote-change))
 
 ;; smartchr
 (require 'smartchr)

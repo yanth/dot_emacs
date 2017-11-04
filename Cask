@@ -16,9 +16,11 @@
 (depends-on "auto-complete")
 (depends-on "auto-highlight-symbol")
 ; helm
-(depends-on "helm")
-(depends-on "helm-descbinds")
-(depends-on "helm-migemo")
+; (depends-on "helm")
+; (depends-on "helm-descbinds")
+; (depends-on "helm-migemo")
+; anything
+(depends-on "anything")
 ; source manage
 (depends-on "magit")
 (depends-on "gist")
@@ -30,3 +32,6 @@
 (depends-on "go-autocomplete")
 (depends-on "go-mode")
 (depends-on "go-snippets")
+; javascript
+(depends-on "js2-mode")
+(depends-on "web-mode")
