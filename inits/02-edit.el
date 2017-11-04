@@ -47,6 +47,10 @@
 ;; color-moccur
 (require 'color-moccur)
 
-;; auto-highlight-symbol
-(require 'auto-highlight-symbol)
-(auto-highlight-symbol-mode t)
+;; highlight-symbol
+(require 'highlight-symbol)
+(setq highlight-symbol-idle-delay 1.0)
+(add-hook 'go-mode-hook 'highlight-symbol-mode)
+(add-hook 'go-mode-hook 'highlight-symbol-nav-mode)
+
+
