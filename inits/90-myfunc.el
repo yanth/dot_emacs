@@ -24,7 +24,7 @@
 			     ".md" ))))
 
 ;; 日記追加
-(setq dialy-dir-path "~/blog/_posts/")
+(setq dialy-dir-path "~/Dropbox/text/blog/_posts/")
 (defun new-dialy ()
   (interactive)
   (create-today-markdown-file dialy-dir-path))
