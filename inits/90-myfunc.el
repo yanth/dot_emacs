@@ -20,15 +20,24 @@
   (switch-to-buffer (find-file-noselect 
 		     (concat dir-path
 			     (format-time-string "%Y-%m-%d")
-			     (number-to-string (- 1 (length (directory-files dir-path))))
+     		     (number-to-string (- 1 (length (directory-files dir-path))))
 			     ".md" ))))
 
 ;; 日記追加
-(setq dialy-dir-path "~/Dropbox/text/blog/_posts/")
-(defun new-dialy ()
-  (interactive)
-  (create-today-markdown-file dialy-dir-path))
+;; (defun new-diary ()
+;;   (interactive)
+;;   (create-today-markdown-file diary-dir-path))
 
+;; 今日の日記を開く
+(setq diary-dir-path "~/Dropbox/text/blog/_posts/")
+(defun today-diary()
+  (interactive)
+  (switch-to-buffer
+   (find-file-noselect
+    (concat diary-dir-path
+	    (car (directory-files diary-dir-path  nil
+				 (format-time-string "%Y-%m-%d")))))))
+  
 (defun file-name-base (&optional filename)
   "Return the base name of the FILENAME: no directory, no extension.
 FILENAME defaults to `buffer-file-name'."
