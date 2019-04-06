@@ -16,11 +16,9 @@
 (depends-on "auto-complete")
 (depends-on "highlight-symbol")
 ; helm
-; (depends-on "helm")
-; (depends-on "helm-descbinds")
-; (depends-on "helm-migemo")
-; anything
-(depends-on "anything")
+(depends-on "helm")
+(depends-on "helm-descbinds")
+(depends-on "helm-migemo")
 ; source manage
 (depends-on "magit")
 (depends-on "gist")
