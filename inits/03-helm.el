@@ -1,6 +1,5 @@
 ;; helm
 (require 'helm-config)
-(require 'helm-migemo)
 (helm-descbinds-mode)
 (setq helm-use-migemo t)
 
