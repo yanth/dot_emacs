@@ -9,10 +9,12 @@
 ;; バックアップを作らない
 (setq backup-inhibited t)
 (setq delete-auto-save-files t)
+(setq make-backup-files t)
+(setq auto-save-default t)
 
 (setq ring-bell-function 'ignore)   ;; beep消す
 (setq inhibit-startup-message t)    ;; 起動時の画面を表示しない
-(setq x-select-enable-clipboard t)  ;; Xのクリップボードを利用する
+(setq select-enable-clipboard t)    ;; Xのクリップボードを利用する
 (defalias 'yes-or-no-p 'y-or-n-p)   ;; yes-or-no-p
 (setq indent-tabs-mode nil)         ;; タブ文字でなく、スペース利用
 (show-paren-mode 1)		    ;; 対応するカッコを光らせる
