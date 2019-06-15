@@ -21,3 +21,5 @@
 (setq howm-keyword-file "~/.emacs.d/.howm-keys")
 (setq howm-history-file "~/.emacs.d/.howm-history")
 (setq howm-process-coding-system 'utf-8)
+(setq howm-remember-first-line-to-title t)
+(setq howm-template "= %title\n%cursor\n%date\n")
