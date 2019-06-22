@@ -13,3 +13,6 @@
 ;; 	       (proc (start-process "xsel" "*Messages*" "xsel" "-b" "-i")))
 ;; 	  (process-send-string proc text)
 ;; 	  (process-send-eof proc))))
+
+(require 'xclip)
+(xclip-mode 1)

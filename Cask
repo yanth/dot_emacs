@@ -15,6 +15,8 @@
 (depends-on "color-moccur")
 (depends-on "auto-complete")
 (depends-on "highlight-symbol")
+(depends-on "auto-save-buffers-enhanced")
+(depends-on "xclip")
 ; helm
 (depends-on "helm")
 (depends-on "helm-descbinds")
