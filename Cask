@@ -34,3 +34,6 @@
 ; javascript
 (depends-on "js2-mode")
 (depends-on "web-mode")
+; php
+(depends-on "php-mode")
+(depends-on "ac-php")
