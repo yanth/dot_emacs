@@ -15,8 +15,8 @@
 (depends-on "color-moccur")
 (depends-on "auto-complete")
 (depends-on "highlight-symbol")
-(depends-on "flycheck")
-(depends-on "yspel" :git "https://github.com/yama-natuki/yspel")
+(depends-on "auto-save-buffers-enhanced")
+(depends-on "xclip")
 
 ; helm
 (depends-on "helm")
