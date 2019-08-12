@@ -15,6 +15,9 @@
 (depends-on "color-moccur")
 (depends-on "auto-complete")
 (depends-on "highlight-symbol")
+(depends-on "flycheck")
+(depends-on "yspel" :git "https://github.com/yama-natuki/yspel")
+
 ; helm
 (depends-on "helm")
 (depends-on "helm-descbinds")
@@ -35,3 +38,10 @@
 ; php
 (depends-on "php-mode")
 (depends-on "ac-php")
+
+; docker
+(depends-on "docker")
+(depends-on "dockerfile-mode")
+(depends-on "docker-compose-mode")
+(depends-on "docker-tramp")
+
