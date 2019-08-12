@@ -5,3 +5,8 @@
 /eshell/*
 /inits/*.elc
 /recentf
+/.howm-history
+/.howm-keys
+/howm/*
+/kkcrc
+*.el
