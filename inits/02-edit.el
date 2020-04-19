@@ -1,14 +1,14 @@
-;; auto-complete
-(require 'auto-complete-config)
-(ac-config-default) 
-(define-key ac-complete-mode-map "\C-n" 'ac-next)
-(define-key ac-complete-mode-map "\C-p" 'ac-previous)
-(setq ac-delay 0.1)
-(setq ac-auto-show-menu 0.5)
-(set-face-foreground 'popup-summary-face "black")
-(set-face-background 'ac-selection-face "blue")
-(set-face-background 'ac-completion-face "white")
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/dict")
+;; company-mode
+(require 'company)
+(global-company-mode) ; 全バッファで有効にする 
+(setq company-idle-delay 0) ; デフォルトは0.5
+(setq company-minimum-prefix-length 2) ; デフォルトは4
+(setq company-selection-wrap-around t) ; 候補の一番下でさらに下に行こうとすると一番上に戻る
+(define-key company-active-map (kbd "M-n") nil)
+(define-key company-active-map (kbd "M-p") nil)
+(define-key company-active-map (kbd "C-n") 'company-select-next)
+(define-key company-active-map (kbd "C-p") 'company-select-previous)
+(define-key company-active-map (kbd "C-h") nil)
 
 ;; yasnippet
 (require 'yasnippet)

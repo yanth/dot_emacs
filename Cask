@@ -13,10 +13,10 @@
 ; edit
 (depends-on "yasnippet")
 (depends-on "color-moccur")
-(depends-on "auto-complete")
 (depends-on "highlight-symbol")
 (depends-on "auto-save-buffers-enhanced")
 (depends-on "xclip")
+(depends-on "company")
 
 ; helm
 (depends-on "helm")
