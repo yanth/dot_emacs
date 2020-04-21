@@ -4,6 +4,7 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/howm/"))
 
@@ -26,7 +27,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (lsp-ui company web-mode smartchr recentf-ext popwin mozc migemo markdown-mode magit js2-mode init-loader howm highlight-symbol helm-descbinds go-snippets go-mode go-autocomplete gist exec-path-from-shell dockerfile-mode docker-compose-mode docker color-moccur auto-save-buffers-enhanced ac-php))))
+    (jsonrpc flymake xclip web-mode smartchr recentf-ext popwin mozc migemo magit js2-mode init-loader howm highlight-symbol helm-descbinds go-snippets go-mode go-autocomplete gist exec-path-from-shell dockerfile-mode docker-compose-mode docker color-moccur auto-save-buffers-enhanced ac-php))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -19,9 +19,7 @@
 (depends-on "company")
 
 ; lsp
-(depends-on "lsp-mode")
-(depends-on "company-lsp")
-(depends-on "lsp-ui")
+(depends-on "eglot")
 
 ; helm
 (depends-on "helm")
