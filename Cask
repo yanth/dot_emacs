@@ -18,6 +18,11 @@
 (depends-on "xclip")
 (depends-on "company")
 
+; lsp
+(depends-on "lsp-mode")
+(depends-on "company-lsp")
+(depends-on "lsp-ui")
+
 ; helm
 (depends-on "helm")
 (depends-on "helm-descbinds")

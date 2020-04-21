@@ -26,7 +26,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company web-mode smartchr recentf-ext popwin mozc migemo markdown-mode magit js2-mode init-loader howm highlight-symbol helm-descbinds go-snippets go-mode go-autocomplete gist exec-path-from-shell dockerfile-mode docker-compose-mode docker color-moccur auto-save-buffers-enhanced ac-php))))
+    (lsp-ui company web-mode smartchr recentf-ext popwin mozc migemo markdown-mode magit js2-mode init-loader howm highlight-symbol helm-descbinds go-snippets go-mode go-autocomplete gist exec-path-from-shell dockerfile-mode docker-compose-mode docker color-moccur auto-save-buffers-enhanced ac-php))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
