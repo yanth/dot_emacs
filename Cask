@@ -24,6 +24,7 @@
 ; helm
 (depends-on "helm")
 (depends-on "helm-descbinds")
+(depends-on "helm-gtags")
 ; source manage
 (depends-on "magit")
 (depends-on "gist")
