@@ -41,7 +41,7 @@
 (depends-on "web-mode")
 ; php
 (depends-on "php-mode")
-(depends-on "ac-php")
+(depends-on "company-php")
 
 ; docker
 (depends-on "docker")
